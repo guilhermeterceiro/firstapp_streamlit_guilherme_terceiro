@@ -3,9 +3,6 @@ import numpy as np
 import plotly.express as px 
 import streamlit as st
 import datetime
-import hvplot.pandas
-import panel as pn
-pn.extension()
 
 #### Carregar o dados ####
 df_hapvida = pd.read_csv("RECLAMEAQUI_HAPVIDA.csv")
